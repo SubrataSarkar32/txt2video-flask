@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-Video Generator</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        form { margin-bottom: 20px; }
+        video { margin-top: 20px; max-width: 100%; }
+    </style>
+</head>
+<body>
+    <h1>Text-to-Video Generator</h1>
+    <form method="post">
+        <label for="text">Enter your text prompt:</label><br>
+        <input type="text" id="text" name="text" required>
+        <button type="submit">Generate Video</button>
+    </form>
+    
+    {% if video_path %}
+        <h2>Generated Video:</h2>
+        <video controls>
+            <source src="{{ video_path }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <br>
+        <a href="{{ video_path }}" download>Download Video</a>
+    {% endif %}
+</body>
+</html>

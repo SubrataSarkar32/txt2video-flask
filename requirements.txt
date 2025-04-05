@@ -1,0 +1,7 @@
+numpy
+opencv-python
+diffusers
+transformers
+flask
+imageio[ffmpeg]
+accelerate
