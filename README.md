@@ -5,8 +5,12 @@ A Flask app for text to video generation
 # Installation
 
 First install and setup pytorch with cuda.
+
 Expected nvidia drivers and CUDA and cudnn are already installed and setup. [Help: Link](https://github.com/imxzone/Step-by-Step-Setup-CUDA-cuDNN-and-PyTorch-Installation-on-Windows-with-GPU-Compatibility)
+
 Also expected to have ffmpef installed and path setup. [Help: Link](https://ffmpeg.org/download.html)
+
+### Installation steps:
 
 1) Create a virtual environment and activate it
 
