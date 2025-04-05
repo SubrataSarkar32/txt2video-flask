@@ -35,6 +35,8 @@ Also expected to have ffmpef installed and path setup. [Help: Link](https://ffmp
 
     Note: Model [damo-vilab--text-to-video-ms-1.7b](https://huggingface.co/ali-vilab/text-to-video-ms-1.7b/tree/main) of size 3.41GB will get downloaded on first run
 
+Approximate time taken for video generation of 256 x 256 resolution @ 8 frames / second is 01 min 58 sec for a 2sec clip on a system having i5-11400H, 16 GB RAM and RTX 3050 4GB(40W TDP).
+
 
 
 
