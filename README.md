@@ -37,6 +37,12 @@ Also expected to have ffmpef installed and path setup. [Help: Link](https://ffmp
 
 Approximate time taken for video generation of 256 x 256 resolution @ 8 frames / second is 01 min 58 sec for a 2sec clip on a system having i5-11400H, 16 GB RAM and RTX 3050 4GB(40W TDP).
 
+Sample generation:
 
+**Prompt** : a clownfish in coral reef
+
+**Result** :
+
+https://github.com/user-attachments/assets/51aa5084-3dcf-4bec-8137-18a76979a288
 
 
